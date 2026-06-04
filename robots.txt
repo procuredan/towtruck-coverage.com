@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://towtruck-coverage.com/sitemap.xml

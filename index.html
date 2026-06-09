@@ -17,7 +17,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-
 <!-- Google tag (gtag.js) — GA4 + Google Ads (standard across all pages) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K427YCSS9Q"></script>
 <script>
@@ -57,6 +56,7 @@
 <style>
 :root{
   --navy:#0B3558;--navy-dark:#07253D;--gold:#F4A621;--gold-dark:#D88D13;
+  --accent:#F4A621;--accent-dark:#D88D13;
   --light:#F7F9FC;--text:#142132;--muted:#6E7A8A;--line:#E5EBF2;
   --radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--container:1180px;
 }
@@ -75,9 +75,9 @@ img{max-width:100%;}
 .nav-right{display:flex;align-items:center;gap:22px;}
 .nav-phone{font-weight:800;color:var(--navy);font-size:17px;white-space:nowrap;}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 28px;border-radius:12px;font-weight:800;transition:.2s ease;cursor:pointer;border:none;}
-.btn-primary{background:var(--gold);color:#111;}
-.btn-primary:hover{background:var(--gold-dark);transform:translateY(-2px);}
-.hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(244,166,33,.16), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);}
+.hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(0,0,0,.10), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
 .hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:center;}
 .eyebrow{display:inline-block;background:rgba(244,166,33,.16);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
 .hero-title{font-size:clamp(38px,4.6vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
@@ -88,9 +88,11 @@ img{max-width:100%;}
 .hero-points div{display:flex;align-items:flex-start;gap:12px;color:#fff;font-size:16px;}
 .hero-points span{color:var(--gold);font-weight:800;}
 .trust-line{margin:8px 0 26px;font-size:14px;color:#C7D8E7;font-weight:500;}
-.form-card{background:#fff;border-radius:var(--radius);padding:32px;box-shadow:var(--shadow);color:var(--text);}
-.form-card h3{font-size:27px;margin-bottom:10px;line-height:1.1;}
-.form-card > p{color:var(--muted);font-size:15px;margin-bottom:16px;}
+.form-card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);color:var(--text);overflow:hidden;}
+.form-head{background:var(--accent);color:#fff;padding:24px 32px;}
+.form-head h3{font-size:25px;line-height:1.12;margin-bottom:6px;color:#fff;}
+.form-head p{color:rgba(255,255,255,.9);font-size:14px;}
+.form-body{padding:28px 32px 32px;}
 .form-stats{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:20px;}
 .form-stat{flex:1;text-align:center;padding:10px 8px;border-right:1px solid var(--line);}
 .form-stat:last-child{border-right:none;}
@@ -152,6 +154,20 @@ footer h4{color:#fff;margin-bottom:18px;}
 footer a{color:#A7BED1;display:block;margin-bottom:12px;}
 .footer-disclaimer{border-top:1px solid rgba(255,255,255,.1);padding-top:24px;font-size:12px;line-height:1.6;color:#7B92A6;margin-bottom:18px;}
 .footer-bottom{font-size:13px;}
+.article{max-width:820px;margin:0 auto;padding:70px 0;}
+.article h1{font-size:clamp(30px,4vw,46px);color:var(--navy);line-height:1.12;margin-bottom:18px;}
+.article .lede{font-size:19px;color:var(--muted);margin-bottom:30px;}
+.article h2{color:var(--navy);font-size:26px;margin:34px 0 12px;}
+.article p{color:#39485B;font-size:17px;margin-bottom:16px;}
+.article .back{display:inline-block;margin-top:30px;font-weight:700;color:var(--accent);}
+.legal{max-width:820px;margin:0 auto;padding:70px 0;}
+.legal h1{font-size:38px;color:var(--navy);margin-bottom:10px;}
+.legal h2{color:var(--navy);font-size:22px;margin:28px 0 10px;}
+.legal p{color:#39485B;margin-bottom:14px;}
+.thanks{max-width:680px;margin:0 auto;padding:110px 24px;text-align:center;}
+.thanks .badge{width:84px;height:84px;border-radius:50%;background:rgba(244,166,33,.15);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 26px;}
+.thanks h1{font-size:40px;color:var(--navy);margin-bottom:16px;}
+.thanks p{font-size:19px;color:var(--muted);margin-bottom:14px;}
 @media(max-width:980px){
 .hero-grid,.review-grid,.how-grid,.footer-grid,.stats-grid,.seg-grid{grid-template-columns:1fr;}
 .form-grid{grid-template-columns:1fr;}
@@ -174,7 +190,6 @@ footer a{color:#A7BED1;display:block;margin-bottom:12px;}
 TowTruck Coverage
 </a>
 <div class="nav-right">
-<!-- TODO: replace with your real tracking phone number -->
 <a href="tel:18555550123" class="nav-phone">(855) 555-0123</a>
 <a href="#form" class="btn btn-primary">Get My Free Review →</a>
 </div>
@@ -185,71 +200,59 @@ TowTruck Coverage
 <div class="container hero-grid">
 <div>
 <div class="eyebrow">Free Tow Truck &amp; Wrecker Insurance Review</div>
-<h1 class="hero-title">
-Find Out If You're<br>
-<span class="highlight">Overpaying On Your Tow Truck Insurance</span><br>
-— Before Your Renewal.
-</h1>
-<p>
-We review tow truck and wrecker insurance for premium savings, coverage gaps, and competitive markets — before your renewal locks you into another year at the wrong rate.
-</p>
-<p class="mini-proof">
-For light, medium, and heavy-duty towing, flatbed and rollback, recovery, repossession, roadside, and motor-club operators.
-</p>
+<h1 class="hero-title">Find Out If You're<br><span class="highlight">Overpaying On Your Tow Truck Insurance</span><br>— Before Your Renewal.</h1>
+<p>We review tow truck and wrecker insurance for premium savings, coverage gaps, and competitive markets — before your renewal locks you into another year at the wrong rate.</p>
+<p class="mini-proof">For light, medium, and heavy-duty towing, flatbed and rollback, recovery, repossession, roadside, and motor-club operators.</p>
 <div class="hero-points">
 <div><span>✓</span> Compare your premium against specialty towing markets</div>
 <div><span>✓</span> Spot gaps in on-hook, garagekeepers, and filings</div>
 <div><span>✓</span> One quick request — no giant application to begin</div>
 <div><span>✓</span> No cost, no obligation, no pressure</div>
 </div>
-<p class="trust-line">
-Built for tow and recovery operators nationwide, from a single truck to a full fleet.
-</p>
+<p class="trust-line">Built for tow and recovery operators nationwide, from a single truck to a full fleet.</p>
 <a href="#form" class="btn btn-primary">Get My Free Review →</a>
 </div>
 
 <div class="form-card" id="form">
+<div class="form-head">
 <h3>Request Your Free Tow Truck Insurance Review</h3>
-<p>
-Submit the basics below. A towing insurance specialist follows up — no obligation to switch.
-</p>
-
+<p>Submit the basics below. A towing insurance specialist follows up — no obligation to switch.</p>
+</div>
+<div class="form-body">
 <div class="form-stats">
   <div class="form-stat"><strong>$0</strong><span>To Compare</span></div>
   <div class="form-stat"><strong>Light→Heavy</strong><span>All Duty</span></div>
   <div class="form-stat"><strong>1–26+</strong><span>Trucks</span></div>
   <div class="form-stat"><strong>Fast</strong><span>Follow-Up</span></div>
 </div>
-
-<!-- TODO: create a Formspree form for this site and paste its ID below -->
 <form action="https://procure-lead-engine.dan-fda.workers.dev/submit" method="POST">
   <input type="hidden" name="lead_source" value="towtruck-coverage.com" />
   <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true" />
+  <input type="hidden" name="site" value="towtruck-coverage.com" />
   <input type="hidden" name="vertical" value="Tow Truck Insurance" />
   <input type="hidden" name="_redirect" value="https://towtruck-coverage.com/thank-you.html" />
-
 <div class="form-grid">
-<div>
+<div class="">
 <label class="field-label" for="first_name">First Name</label>
 <input id="first_name" type="text" name="first_name" autocomplete="given-name" required>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="last_name">Last Name</label>
 <input id="last_name" type="text" name="last_name" autocomplete="family-name" required>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="phone">Phone</label>
 <input id="phone" type="tel" name="phone" placeholder="(555) 555-5555" autocomplete="tel" inputmode="tel" pattern="[\d\s\-\(\)\.]{10,20}" required>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="email">Email</label>
 <input id="email" type="email" name="email" autocomplete="email" required>
 </div>
 <div class="full">
 <label class="field-label" for="company">Business Name</label>
-<input id="company" type="text" name="company" autocomplete="organization" placeholder="Optional">
+<input id="company" type="text" name="company" placeholder="Optional" autocomplete="organization">
 </div>
-<div>
+<div class="">
 <label class="field-label" for="operation_type">Operation Type</label>
 <select id="operation_type" name="operation_type" required>
 <option value="">Select one</option>
@@ -264,9 +267,9 @@ Submit the basics below. A towing insurance specialist follows up — no obligat
 <option>Other</option>
 </select>
 </div>
-<div>
-<label class="field-label" for="trucks">Number of Trucks</label>
-<select id="trucks" name="number_of_trucks" required>
+<div class="">
+<label class="field-label" for="number_of_trucks">Number of Trucks</label>
+<select id="number_of_trucks" name="number_of_trucks" required>
 <option value="">Select one</option>
 <option>1</option>
 <option>2-5</option>
@@ -275,11 +278,11 @@ Submit the basics below. A towing insurance specialist follows up — no obligat
 <option>26+</option>
 </select>
 </div>
-<div>
+<div class="">
 <label class="field-label" for="dot_number">DOT Number</label>
 <input id="dot_number" type="text" name="dot_number" placeholder="Optional">
 </div>
-<div>
+<div class="">
 <label class="field-label" for="state">State</label>
 <input id="state" type="text" name="state" placeholder="e.g. FL" autocomplete="address-level1">
 </div>
@@ -288,13 +291,11 @@ Submit the basics below. A towing insurance specialist follows up — no obligat
 <input id="renewal_date" type="date" name="renewal_date">
 </div>
 <div class="full">
-<label class="field-label" for="notes">Tell us about your operation</label>
-<textarea id="notes" name="operation_details" placeholder="Example: 3 light-duty wreckers and a rollback, mostly local police-rotation and motor-club calls, plus an impound lot."></textarea>
+<label class="field-label" for="operation_details">Tell us about your operation</label>
+<textarea id="operation_details" name="operation_details" placeholder="Example: 3 light-duty wreckers and a rollback, mostly local police-rotation and motor-club calls, plus an impound lot."></textarea>
 </div>
 <div class="full">
-<p style="font-weight:700; color:#142132; margin:4px 0 14px; font-size:16px;">
-Most operators find savings or a coverage gap — like missing on-hook or garagekeepers — in the first review.
-</p>
+<p style="font-weight:700; color:#142132; margin:4px 0 14px; font-size:16px;">Most operators find savings or a coverage gap — like missing on-hook or garagekeepers — in the first review.</p>
 <button class="btn btn-primary submit-btn" type="submit">Get My Free Review →</button>
 <div class="trust-strip"><span class="tbadge">🔒 SSL Secured</span><span class="tbadge">✓ TCPA-Compliant Consent</span><span class="tbadge">🚫 Never Sold or Shared</span><span class="tbadge">✓ Free &amp; No Obligation</span></div>
 <p class="secondary-label">Want us to review any other coverage?</p>
@@ -306,10 +307,9 @@ Most operators find savings or a coverage gap — like missing on-hook or garage
 </div>
 </div>
 </div>
-<div class="tcpa">
-By clicking "Get My Free Review," you agree to be contacted by The Partners Group and its representatives via phone call, text message, and email regarding tow truck and commercial insurance and related products or services using automated technology at the contact information provided, even if your number is listed on a state or federal Do Not Call list. Consent is not a condition of purchase. Message and data rates may apply. View our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>.
-</div>
+<div class="tcpa">By clicking "Get My Free Review," you agree to be contacted by The Partners Group and its representatives via phone call, text message, and email regarding tow truck and commercial insurance and related products or services using automated technology at the contact information provided, even if your number is listed on a state or federal Do Not Call list. Consent is not a condition of purchase. Message and data rates may apply. View our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>.</div>
 </form>
+</div>
 </div>
 </div>
 </section>
@@ -323,14 +323,12 @@ By clicking "Get My Free Review," you agree to be contacted by The Partners Grou
 </div>
 </section>
 
-<section class="section" id="coverage">
+<section class="section" id="services">
 <div class="container">
 <div class="section-head">
 <div class="eyebrow">What We Review</div>
 <h2>Tow truck coverage, reviewed before renewal.</h2>
-<p>
-Towing is a high-hazard class most carriers misprice — and the coverages that protect you (on-hook, garagekeepers, filings) are easy to get wrong. We review the whole program for savings and gaps.
-</p>
+<p>Towing is a high-hazard class most carriers misprice — and the coverages that protect you (on-hook, garagekeepers, filings) are easy to get wrong. We review the whole program for savings and gaps.</p>
 </div>
 <div class="review-grid">
 <div class="review-card">
@@ -372,9 +370,7 @@ Towing is a high-hazard class most carriers misprice — and the coverages that 
 <div class="section-head">
 <div class="eyebrow">Who We Cover</div>
 <h2>Every kind of tow and recovery operation.</h2>
-<p>
-A light-duty wrecker, a heavy recovery rig, a repo fleet, and a motor-club contractor all get underwritten differently. We point you toward the markets that fit.
-</p>
+<p>A light-duty wrecker, a heavy recovery rig, a repo fleet, and a motor-club contractor all get underwritten differently. We point you toward the markets that fit.</p>
 </div>
 <div class="seg-grid">
 <div class="seg-item"><span class="check">✓</span><div><strong>Light &amp; medium duty</strong><span>Local towing, wreckers, and service calls.</span></div></div>
@@ -467,26 +463,23 @@ TowTruck Coverage
 <h4>Coverage</h4>
 <a href="/heavy-duty-tow-truck-insurance.html">Heavy-Duty Tow Truck</a>
 <a href="/on-hook-towing-insurance.html">On-Hook Insurance</a>
-<a href="#coverage">Garagekeepers &amp; GL</a>
+<a href="/#services">Garagekeepers &amp; GL</a>
 </div>
 <div>
 <h4>Operations</h4>
-<a href="#coverage">Light &amp; Medium Duty</a>
-<a href="#coverage">Heavy-Duty &amp; Recovery</a>
-<a href="#coverage">Repo &amp; Roadside</a>
+<a href="/#services">Light &amp; Medium Duty</a>
+<a href="/#services">Heavy-Duty &amp; Recovery</a>
+<a href="/#services">Repo &amp; Roadside</a>
 </div>
 <div>
 <h4>Contact</h4>
-<!-- TODO: replace with your real tracking phone number and inbox -->
 <a href="tel:18555550123">(855) 555-0123</a>
 <a href="mailto:reviews@towtruck-coverage.com">reviews@towtruck-coverage.com</a>
 <a href="/privacy-policy.html">Privacy Policy</a>
 <a href="/terms.html">Terms &amp; Conditions</a>
 </div>
 </div>
-<div class="footer-disclaimer">
-This website is for lead generation and referral purposes. Coverage availability, terms, and pricing vary by carrier, state, and underwriting review. Submitting a request does not bind, alter, or guarantee coverage.
-</div>
+<div class="footer-disclaimer">This website is for lead generation and referral purposes. Coverage availability, terms, and pricing vary by carrier, state, and underwriting review. Submitting a request does not bind, alter, or guarantee coverage.</div>
 <div class="footer-bottom">© 2026 TowTruck Coverage. All rights reserved.</div>
 </div>
 </footer>
@@ -496,7 +489,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const phoneInput = document.querySelector('input[name="phone"]');
   if (phoneInput) {
     phoneInput.addEventListener("input", function (e) {
-      let value = e.target.value.replace(/\D/g, "").slice(0, 10);
+      let value = e.target.value.replace(/\D/g, "");
+      if (value.charAt(0) === "1") value = value.slice(1); // strip US country code — no area code starts with 1
+      value = value.slice(0, 10);
       if (value.length > 6) {
         e.target.value = `(${value.slice(0, 3)}) ${value.slice(3, 6)}-${value.slice(6)}`;
       } else if (value.length > 3) {
@@ -507,6 +502,48 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+</script>
+<!-- Procure form analytics — GA4 funnel events (no PII to GA) + partial capture to separate DB -->
+<script>
+(function(){
+  var form = document.querySelector('form'); if(!form) return;
+  var ENDPOINT = 'https://procure-lead-engine.dan-fda.workers.dev/partial';
+  var SITE = 'towtruck-coverage.com';
+  var SKIP = {_gotcha:1,_redirect:1,site:1,lead_source:1,vertical:1,pm_sid:1,gclid:1,gbraid:1,wbraid:1,utm_source:1,utm_medium:1,utm_campaign:1,utm_term:1,utm_content:1};
+  var FIELDS = [];
+  Array.prototype.forEach.call(form.querySelectorAll('[name]'), function(el){
+    var n=el.name; if(!n||SKIP[n]||el.type==='hidden') return; if(FIELDS.indexOf(n)<0) FIELDS.push(n);
+  });
+  var sid;
+  try { sid = sessionStorage.getItem('pm_sid'); if(!sid){ sid = (window.crypto && crypto.randomUUID ? crypto.randomUUID() : (Date.now()+'-'+Math.random())); sessionStorage.setItem('pm_sid', sid); } }
+  catch(e){ sid = Date.now()+'-'+Math.random(); }
+  var attr = {};
+  try { var c=(document.cookie.match(/(?:^|; )pm_attr=([^;]*)/)||[])[1]; if(c) attr=JSON.parse(decodeURIComponent(c))||{}; } catch(e){}
+  if(!form.querySelector('[name="pm_sid"]')){ var h=document.createElement('input'); h.type='hidden'; h.name='pm_sid'; h.value=sid; form.appendChild(h); }
+  var started=false, reached={}, lastField='', t=null;
+  function v(n){ var el=form.querySelector('[name="'+n+'"]'); return el ? (el.value||'').trim() : ''; }
+  function fullname(){ return v('name') || [v('first_name'),v('last_name')].filter(Boolean).join(' '); }
+  function extra(){ var o={}, core={first_name:1,last_name:1,name:1,email:1,phone:1,association:1,community_size:1,role:1};
+    FIELDS.forEach(function(n){ if(!core[n]){ var val=v(n); if(val) o[n]=val; } }); return JSON.stringify(o); }
+  function snap(sub){ return {
+    session_id:sid, site:SITE, last_field:lastField, fields_reached:Object.keys(reached).length, submitted:sub?1:0,
+    name:fullname(), email:v('email'), phone:v('phone'),
+    association:v('association'), community_size:v('community_size'), role:v('role'), extra:extra(),
+    gclid:attr.gclid||'', utm_source:attr.utm_source||'', utm_medium:attr.utm_medium||'', utm_campaign:attr.utm_campaign||'',
+    utm_term:attr.utm_term||'', utm_content:attr.utm_content||'', landing:attr.landing||'', referrer:attr.referrer||'' }; }
+  function beacon(sub){ try{ var b=new Blob([JSON.stringify(snap(sub))],{type:'text/plain'});
+    if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT,b); else fetch(ENDPOINT,{method:'POST',body:JSON.stringify(snap(sub)),mode:'no-cors',keepalive:true}); }catch(e){} }
+  function ga(n,p){ try{ if(window.gtag) gtag('event',n,p||{}); }catch(e){} }
+  form.addEventListener('focusin', function(){ if(!started){ started=true; ga('form_start',{form:SITE}); beacon(false); } });
+  FIELDS.forEach(function(n,idx){ var el=form.querySelector('[name="'+n+'"]'); if(!el) return;
+    function mark(){ if(v(n) && !reached[n]){ reached[n]=true; lastField=n; ga('form_progress',{field_name:n, step:idx+1}); } }
+    el.addEventListener('blur', function(){ mark(); clearTimeout(t); t=setTimeout(function(){ beacon(false); },400); });
+    el.addEventListener('change', function(){ mark(); beacon(false); });
+  });
+  form.addEventListener('submit', function(){ beacon(true); });
+  window.addEventListener('pagehide', function(){ if(started) beacon(false); });
+  document.addEventListener('visibilitychange', function(){ if(document.visibilityState==='hidden' && started) beacon(false); });
+})();
 </script>
 </body>
 </html>

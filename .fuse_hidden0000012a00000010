@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>On-Hook Towing Insurance | TowTruck Coverage</title>
-<meta name="description" content="Free on-hook (in-tow) towing insurance review. Coverage for the customer vehicles you haul — damage while hooked, loaded, or in transit. Compare specialty towing markets before renewal." />
+<title>Tow Truck &amp; Wrecker Insurance | Free Coverage Review | TowTruck Coverage</title>
+<meta name="description" content="Free tow truck and wrecker insurance review. Coverage for light, medium, and heavy-duty towing, flatbed, recovery, repossession, and roadside operators — primary liability, physical damage, on-hook, and garagekeepers. Compare carriers before your renewal." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="TowTruck Coverage" />
-<meta property="og:title" content="On-Hook Towing Insurance | TowTruck Coverage" />
-<meta property="og:description" content="Free on-hook (in-tow) towing insurance review. Coverage for the customer vehicles you haul — damage while hooked, loaded, or in transit. Compare specialty towing markets before renewal." />
-<meta property="og:url" content="https://towtruck-coverage.com/on-hook-towing-insurance.html" />
+<meta property="og:title" content="Tow Truck &amp; Wrecker Insurance | Free Coverage Review | TowTruck Coverage" />
+<meta property="og:description" content="Free tow truck and wrecker insurance review. Coverage for light, medium, and heavy-duty towing, flatbed, recovery, repossession, and roadside operators — primary liability, physical damage, on-hook, and garagekeepers. Compare carriers before your renewal." />
+<meta property="og:url" content="https://towtruck-coverage.com/" />
 <meta property="og:image" content="https://towtruck-coverage.com/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -78,7 +78,7 @@ img{max-width:100%;}
 .btn-primary{background:var(--accent);color:#fff;}
 .btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);}
 .hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(0,0,0,.10), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
-.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:start;}
+.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:center;}
 .eyebrow{display:inline-block;background:rgba(244,166,33,.16);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
 .hero-title{font-size:clamp(38px,4.6vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
 .highlight{color:var(--gold);}
@@ -199,10 +199,10 @@ TowTruck Coverage
 <section class="hero">
 <div class="container hero-grid">
 <div>
-<div class="eyebrow">Free On-Hook Towing Insurance Review</div>
-<h1 class="hero-title">On-Hook Towing Insurance,<br><span class="highlight">Right-Sized For What You Haul.</span></h1>
-<p>On-hook covers the customer vehicles you tow — a common gap. We review your limits and program for savings and missing coverage before renewal.</p>
-<p class="mini-proof">For light, medium, and heavy towing, flatbed and rollback, recovery, and roadside operators.</p>
+<div class="eyebrow">Free Tow Truck &amp; Wrecker Insurance Review</div>
+<h1 class="hero-title">Find Out If You're<br><span class="highlight">Overpaying On Your Tow Truck Insurance</span><br>— Before Your Renewal.</h1>
+<p>We review tow truck and wrecker insurance for premium savings, coverage gaps, and competitive markets — before your renewal locks you into another year at the wrong rate.</p>
+<p class="mini-proof">For light, medium, and heavy-duty towing, flatbed and rollback, recovery, repossession, roadside, and motor-club operators.</p>
 <div class="hero-points">
 <div><span>✓</span> Compare your premium against specialty towing markets</div>
 <div><span>✓</span> Spot gaps in on-hook, garagekeepers, and filings</div>
@@ -215,7 +215,7 @@ TowTruck Coverage
 
 <div class="form-card" id="form">
 <div class="form-head">
-<h3>Request Your Free On-Hook Towing Insurance Review</h3>
+<h3>Request Your Free Tow Truck Insurance Review</h3>
 <p>Submit the basics below. A towing insurance specialist follows up — no obligation to switch.</p>
 </div>
 <div class="form-body">
@@ -226,7 +226,7 @@ TowTruck Coverage
   <div class="form-stat"><strong>Fast</strong><span>Follow-Up</span></div>
 </div>
 <form action="https://procure-lead-engine.dan-fda.workers.dev/submit" method="POST">
-  <input type="hidden" name="lead_source" value="towtruck-coverage.com/on-hook-towing-insurance" />
+  <input type="hidden" name="lead_source" value="towtruck-coverage.com" />
   <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true" />
   <input type="hidden" name="site" value="towtruck-coverage.com" />
   <input type="hidden" name="vertical" value="Tow Truck Insurance" />
@@ -415,24 +415,24 @@ TowTruck Coverage
 <div class="container">
 <div class="section-head">
 <div class="eyebrow">Common Questions</div>
-<h2>On-Hook Towing Insurance FAQ</h2>
+<h2>Tow truck insurance FAQ</h2>
 </div>
 <div class="faq">
 <div class="faq-item">
-<h3>What does on-hook insurance cover?</h3>
-<p>On-hook (in-tow) coverage pays for damage to the customer's vehicle while it's hooked, loaded, or in transit on your truck — separate from your own truck's physical damage.</p>
+<h3>What is on-hook (in-tow) coverage?</h3>
+<p>On-hook coverage protects the customer's vehicle while you're towing it — damage that happens while the vehicle is hooked, loaded, or in transit. It's separate from your own truck's physical damage and a common gap.</p>
 </div>
 <div class="faq-item">
-<h3>How much on-hook coverage do I need?</h3>
-<p>Enough to cover the value of the most expensive vehicle you typically tow. We help you set on-hook limits that match what you actually haul.</p>
+<h3>What is garagekeepers coverage?</h3>
+<p>Garagekeepers covers vehicles in your care, custody, and control while stored on your lot or impound yard — for example, damage, theft, or fire to a customer's car parked at your facility.</p>
 </div>
 <div class="faq-item">
-<h3>Is on-hook the same as garagekeepers?</h3>
-<p>No. On-hook covers vehicles while in tow; garagekeepers covers vehicles stored in your care at your lot or impound yard. Many operators need both.</p>
+<h3>Do tow operators need DOT filings or workers' comp?</h3>
+<p>Many tow operations need MCS-90 or state filings to keep their authority and motor-club or police-rotation contracts, and workers' comp is required in nearly every state once you have employees. We review what applies to you.</p>
 </div>
 <div class="faq-item">
-<h3>Why is on-hook a common coverage gap?</h3>
-<p>Operators often carry low default on-hook limits that don't reflect the vehicles they tow. A review right-sizes the limit so a single bad tow doesn't exceed your coverage.</p>
+<h3>What affects my tow truck insurance cost?</h3>
+<p>Duty class, number and value of trucks, radius, driver records, claims history, contracts (police rotation, motor club), and your filings all affect price — and carriers weigh them differently, which is why comparing matters.</p>
 </div>
 </div>
 </div>
@@ -442,8 +442,8 @@ TowTruck Coverage
 <div class="container">
 <div class="cta-box">
 <div class="eyebrow">No Cost • No Obligation • No Pressure</div>
-<h2>Request Your Free On-Hook Towing Insurance Review</h2>
-<p>See if your on-hook limits match what you haul before your renewal. One quick request and a specialist follows up.</p>
+<h2>Request Your Free Tow Truck Insurance Review</h2>
+<p>See if you're overpaying before your renewal locks you into another year. One quick request and a specialist follows up with competitive options.</p>
 <a href="#form" class="btn btn-primary">Get My Free Review →</a>
 </div>
 </div>

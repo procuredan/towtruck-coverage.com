@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Terms &amp; Conditions | TowTruck Coverage</title>
-<meta name="description" content="Terms &amp; Conditions for TowTruck Coverage." />
+<title>Thank You | TowTruck Coverage</title>
+<meta name="description" content="Your request has been received." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="TowTruck Coverage" />
-<meta property="og:title" content="Terms &amp; Conditions | TowTruck Coverage" />
-<meta property="og:description" content="Terms &amp; Conditions for TowTruck Coverage." />
-<meta property="og:url" content="https://towtruck-coverage.com/terms.html" />
+<meta property="og:title" content="Thank You | TowTruck Coverage" />
+<meta property="og:description" content="Your request has been received." />
+<meta property="og:url" content="https://towtruck-coverage.com/thank-you.html" />
 <meta property="og:image" content="https://towtruck-coverage.com/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -78,7 +78,7 @@ img{max-width:100%;}
 .btn-primary{background:var(--accent);color:#fff;}
 .btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);}
 .hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(0,0,0,.10), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
-.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:start;}
+.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:center;}
 .eyebrow{display:inline-block;background:rgba(244,166,33,.16);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
 .hero-title{font-size:clamp(38px,4.6vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
 .highlight{color:var(--gold);}
@@ -193,48 +193,12 @@ TowTruck Coverage
 </div>
 </div>
 </header>
-<div class="legal container">
-<h1>Terms &amp; Conditions</h1>
-<p><em>Last updated: June 9, 2026</em></p>
-<h2>Acceptance of Terms</h2><p>By using towtruck-coverage.com you agree to these terms. This website is for lead-generation and referral purposes.</p>
-<h2>No Guarantee</h2><p>Submitting a request does not bind, alter, or guarantee any product, coverage, service, pricing, or outcome. Availability and terms vary by provider and review.</p>
-<h2>Referral Relationship</h2><p>TowTruck Coverage may connect you with third-party specialists or partners who provide the requested products or services.</p>
-<h2>Limitation of Liability</h2><p>The site is provided "as is" without warranties. TowTruck Coverage is not liable for damages arising from use of the site or services obtained through it.</p>
-<h2>Contact</h2><p>Email <a href="mailto:reviews@towtruck-coverage.com">reviews@towtruck-coverage.com</a>.</p>
+<div class="thanks">
+<div class="badge">✓</div>
+<h1>Request received!</h1>
+<p>Thank you — a specialist will reach out shortly, usually within one business day.</p>
+<p><a href="/" class="btn btn-primary" style="margin-top:18px">Back to TowTruck Coverage</a></p>
 </div>
-<footer id="contact">
-<div class="container">
-<div class="footer-grid">
-<div>
-<div class="logo" style="color:#fff;margin-bottom:20px">
-<div class="logo-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17v-6h6l2 3h3v3"/><path d="M11 11l8-3"/><path d="M19 8v3.5"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="15.5" cy="17.5" r="1.6"/><path d="M3 17h2.4M8.6 17h5.3M17.1 17H21"/></svg></div>
-TowTruck Coverage
-</div>
-<p>Free tow truck and wrecker insurance reviews — primary liability, physical damage, on-hook, and garagekeepers for towing and recovery operators.</p>
-</div>
-<div>
-<h4>Coverage</h4>
-<a href="/heavy-duty-tow-truck-insurance.html">Heavy-Duty Tow Truck</a>
-<a href="/on-hook-towing-insurance.html">On-Hook Insurance</a>
-<a href="/#services">Garagekeepers &amp; GL</a>
-</div>
-<div>
-<h4>Operations</h4>
-<a href="/#services">Light &amp; Medium Duty</a>
-<a href="/#services">Heavy-Duty &amp; Recovery</a>
-<a href="/#services">Repo &amp; Roadside</a>
-</div>
-<div>
-<h4>Contact</h4>
-<a href="tel:12083147617">(208) 314-7617</a>
-<a href="mailto:reviews@towtruck-coverage.com">reviews@towtruck-coverage.com</a>
-<a href="/privacy-policy.html">Privacy Policy</a>
-<a href="/terms.html">Terms &amp; Conditions</a>
-</div>
-</div>
-<div class="footer-disclaimer">This website is for lead generation and referral purposes. Coverage availability, terms, and pricing vary by carrier, state, and underwriting review. Submitting a request does not bind, alter, or guarantee coverage.</div>
-<div class="footer-bottom">© 2026 TowTruck Coverage. All rights reserved.</div>
-</div>
-</footer>
+<script>try{gtag('event','generate_lead');}catch(e){}</script>
 </body>
 </html>
